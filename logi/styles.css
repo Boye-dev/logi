@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+}
+.nav-item{
+  text-align: center;
+}
+.back-color {
+  background-image: linear-gradient(to right, #3C8DAD, blue, indigo);
+}
+
+.btn-color {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: black;
+  background-color: #C84B31;
+}
+
+.btn-color:hover {
+  background-color: white;
+}
+
+.nav-link {
+  font-family: 'Lato', sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+#login {
+  color: black;
+}
+
+#login:hover {
+  color: white;
+}
+
+.head {
+  position: relative;
+  border-bottom: 2px solid black;
+  margin-top: 55px;
+  margin-bottom: 8%;
+}
+
+.images {
+  width: 100%;
+  border-top: 2px solid black;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.intro {
+  font-family: 'Lato', sans-serif;
+  font-size: 800%;
+  color: blue;
+}
+
+.intro-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 200%;
+  color: blue;
+}
+
+.move-text {
+  position: absolute;
+  bottom: 50%;
+  left: 30%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+@media (max-width:900px) {
+  .move-text {
+    position: absolute;
+    bottom: 20%;
+    text-align: left;
+  }
+
+  .intro {
+    font-family: 'Lato', sans-serif;
+    font-size: 300%;
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .intro-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    color: blue;
+  }
+}
+
+.img {
+  width: 100%;
+  border-bottom: 2px solid indigo;
+}
+
+.cha {
+  margin-bottom: 8%
+}
+
+.row {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+h2 {
+  color: #C84B31;
+  text-align: center;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Benne', serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+hr {
+  border-top: 2px solid blue;
+  width: 10%;
+  margin-bottom: 5%;
+}
+
+.challenges {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 140%;
+  color: blue;
+  text-align: left;
+}
+
+.chall-text {
+  padding-top: 3%;
+}
+
+.log {
+  background-color: #3C8DAD;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 10%;
+}
+
+.row-logi {
+  padding-top: 5%;
+}
+
+.logistat {
+  padding-top: 8%;
+  font-size: 400%;
+}
+
+.logi {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 140%;
+  text-align: left;
+  color: white;
+}
+
+.what-is {
+  margin-top: 30%;
+  width: 90%;
+  border-radius: 50px;
+  margin-left: 10%;
+  border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transform: width 3s;
+}
+.what-is:hover{
+  width:95%;
+}
+
+.feautures {
+  padding-top: 8%
+}
+
+.row-cards {
+  text-align: center;
+}
+
+.mobi {
+  padding-bottom: 37%;
+}
+
+.card {
+  margin-bottom: 8%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+.card:hover{
+  transform:translate(0,-4%);
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 150%;
+}
+
+.riders {
+  padding-bottom: 23%;
+}
+
+.work {
+  padding-top: 6%;
+  background-color: #3C8DAD;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.why-work {
+  text-align: left;
+  list-style: inside;
+  padding: 0;
+  margin-left: 30%;
+  margin-right: 10%;
+  padding-bottom: 6%;
+}
+
+.list-why {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 150%;
+  color: white;
+  font-weight: bold;
+  padding-top: 3%;
+}
+
+@media (max-width:900px) {
+  .why-work {
+    padding: 0;
+    margin-left: 3%;
+  }
+}
+
+marquee {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
+  color: black;
+  background-color: #C84B31;
+}
+
+.contact {
+  padding-top: 4%;
+}
+
+.fas {
+  color: blue;
+  font-size: 2.7rem;
+}
+.icon{
+  text-align: center;
+}
+
+.con {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 150%;
+  color: blue;
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.foot {
+  border: 3px solid black;
+  text-align: center;
+}
+
+.footer {
+  background-color: #C84B31;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 120%;
+  text-align: right;
+  padding-top: 8%;
+}
+.foot-pad{
+  margin-top: 2%;
+}
